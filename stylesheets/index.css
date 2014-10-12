@@ -1,0 +1,86 @@
+/* line 64, headshots/*.png */
+.headshots-sprite, .headshots-bv, .headshots-njaal, .headshots-perry {
+  background-image: url('../images/headshots-se070c7cb2b.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.headshots-bv {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.headshots-njaal {
+  background-position: 0 -150px;
+}
+
+/* line 84, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.headshots-perry {
+  background-position: 0 -300px;
+}
+
+/* line 10, ../sass/index.scss */
+.headshots-njaal {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* line 10, ../sass/index.scss */
+.headshots-perry {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* line 10, ../sass/index.scss */
+.headshots-bv {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* line 19, ../sass/index.scss */
+div {
+  -moz-animation: ani_color 0.001s infinite;
+  -webkit-animation: ani_color 0.001s infinite;
+  animation: ani_color 0.001s infinite;
+}
+
+@-moz-keyframes ani_color {
+  from {
+    filter: grayscale(100%);
+  }
+  to {
+    filter: grayscale(0%);
+  }
+}
+@-webkit-keyframes ani_color {
+  from {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  to {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+}
+@keyframes ani_color {
+  from {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  to {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+}
